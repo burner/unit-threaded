@@ -1,0 +1,15 @@
+{
+    "name": "benchmark_graph_creator",
+    "description": "Takes benchmark csv files created by unit-threaded and creates pretty graphs showing the results.",
+    "authors": ["Robert burner Schadek"],
+    "homepage": "https://github.com/atilaneves/unit-threaded",
+    "copyright": "Copyright © 2016, Robert burner Schadek",
+    "license": "BSD 3-clause",
+    "configurations": [
+        {
+            "name": "benchmark_graph_creator",
+            "targetType": "executable",
+            "mainSourceFile": "benchmark_graph_creator.d"
+        }
+    ]
+}
